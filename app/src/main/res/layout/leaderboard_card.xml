@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_info_pos_leaderboard"
+        android:layout_width="35dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:gravity="center"
+        android:text="Pos"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/img_info_logo_leaderboard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Logo"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txt_info_pts_leaderboard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="6"
+        android:gravity="center"
+        android:text="Pts"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_name_team_leaderboard"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_marginLeft="10dp"
+        android:text="Equipo"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_info_pj_leaderboard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:gravity="center"
+        android:text="PJ"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_info_dg_leaderboard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="5"
+        android:gravity="center"
+        android:text="DG"
+        android:textColor="@android:color/white" />
+</GridLayout>

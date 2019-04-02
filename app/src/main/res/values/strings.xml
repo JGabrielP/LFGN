@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LFGN</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Liga de futbol</string>
+    <string name="nav_header_subtitle">Guerrero Negro, B. C. Sur</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="default_notification_channel_id" translatable="false">LFGNApp</string>
+    <string name="default_notification_channel_name" translatable="true">LFGN</string>
+    <string name="default_notification_channel_description" translatable="true">Information of LFGN</string>
+</resources>

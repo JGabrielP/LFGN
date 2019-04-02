@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    app:layout_constraintHorizontal_chainStyle="spread"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_pos_leaderboard"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:gravity="center"
+        android:text="Pos"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_logo_leaderboard"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:gravity="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_pts_leaderboard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="6"
+        android:gravity="center"
+        android:text="Pts"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_nameteam_leaderboard"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:text="Equipo"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_pj_leaderboard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:gravity="center"
+        android:text="PJ"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_dg_leaderboard"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="5"
+        android:gravity="center"
+        android:text="DG"
+        android:textColor="@android:color/white" />
+</GridLayout>

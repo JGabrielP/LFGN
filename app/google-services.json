@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "645625765096",
+    "firebase_url": "https://lfgn-web.firebaseio.com",
+    "project_id": "lfgn-web",
+    "storage_bucket": "lfgn-web.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645625765096:android:86021aed488988b1",
+        "android_client_info": {
+          "package_name": "com.gp.jgabrielp10.lfgn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645625765096-7rij23p0bjd2mtsotg53n7maif37kbst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gp.jgabrielp10.lfgn",
+            "certificate_hash": "e142e6db0cc4775ab2816fcd97dbb51198d76b4f"
+          }
+        },
+        {
+          "client_id": "645625765096-l77n9ej8nbg7qn1ni66m369r0u9ne4io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gp.jgabrielp10.lfgn",
+            "certificate_hash": "b56387eebb9abd935c5c59e915c63f371650dcc9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlhu4r9LS4RBEMXcYNSuBFlsjLAb-Yg0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645625765096-ppi02l6qmkne740cjregjbp1nq0ugcnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

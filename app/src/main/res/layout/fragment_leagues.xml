@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".Fragments.LeaguesFragment.LeaguesFragment">
+
+    <ImageView
+        android:id="@+id/img_logo_gp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_gp" />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_leagues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp"
+        android:scrollbars="vertical"
+        android:paddingTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_main_leagues"/>
+    <TextView
+        android:id="@+id/txt_main_leagues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="20dp"
+        android:text="LIGAS"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/img_logo_gp"/>
+
+</RelativeLayout>
